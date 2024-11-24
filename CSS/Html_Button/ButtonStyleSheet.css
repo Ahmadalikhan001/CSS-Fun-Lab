@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.Bnt{
+    position:absolute;
+    top: 50%;
+    background-color:cadetblue;
+    color:chartreuse;
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 2px rgb(0,0,0); */
+    padding: 5px;
+    min-height: 30px;
+    min-width: 12px;
+}
+.Bnt:hover{
+    background-color: bisque;
+    transition: 0.7s;
+    color: black;
+}
+.Bnt:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0px 0px 0px 0px #5a01a7 ;
+    border: 5px solid black;
+    transition: 0.7s;
+}
+.Bnt:active{
+    background-color: rgb(213, 11, 122);
+    transition: 0.7s;
+}
