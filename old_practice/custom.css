@@ -1,0 +1,16 @@
+.hero_image{
+    background:url(heroimage.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.hero_wrapper{
+    color:rgb(32, 193, 118);
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    transform:translate(-50% ,-50%);
+
+}
