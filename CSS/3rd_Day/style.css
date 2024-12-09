@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.Ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    background-color: aqua;
+    color: rgb(43, 208, 57);
+    border-radius: 6px;
+    padding: 10px;
+}
+.B2{
+    position: absolute;
+    top: 40%;
+    background-color:aquamarine ;
+    color: blueviolet;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+}
+.B2:hover{
+    background-color:chartreuse;
+    color:black;
+    transition: 0.7s;
+}
+.B2:focus{
+    color: brown;
+    background-color: rgb(29, 35, 35);
+    transition: 0.7s;
+}

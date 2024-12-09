@@ -1,0 +1,61 @@
+/* body{
+    background-color: aqua;
+}
+h1,h2{
+    font-size: 50px;
+    background-color: beige;
+    font-family:"Montserrat Underline",'Press Start 2P'
+}
+.p1{
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:wavy underline green;
+}
+
+
+ */
+
+/* body{
+    background:linear-gradient(skyblue, lightgreen)
+ } */
+ 
+ /* body{
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ } */
+/* body{
+    background: linear-gradient(to top, rgba(244, 58, 58, 0.516),lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.p1{
+    font-size: 22px;
+    background: linear-gradient(to left,skyblue,rgb(28, 191, 16));
+    background-repeat: no no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    background: linear-gradient(to right,#6492dd, #e12020);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    display:flex
+}
+
+
+ */
+/* 
+body{
+    background-image: url(AA\ Khan.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+} */
+
+body{
+    background: linear-gradient(to top,#f3331e,rgb(62, 180, 226));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
