@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    justify-content: center
+}
