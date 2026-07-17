@@ -8,7 +8,8 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(175, 20, 152);
     text-decoration: none;
     margin-right: 20px;
+    font-weight: bold;
 }
