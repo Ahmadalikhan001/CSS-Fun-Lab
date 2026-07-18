@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar & Footer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+        }
+
+        /* Section Box */
+
+        .box {
+            width: 90%;
+            margin: 40px auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 60px;
+            text-align: center;
+        }
+
+        /* ================= Navbar 1 ================= */
+
+        .nav1 {
+            background: #2196F3;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .nav1 a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .nav1 a:hover {
+            color: yellow;
+        }
+
+        .footer1 {
+            background: #2196F3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* ================= Navbar 2 ================= */
+
+        .nav2 {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .nav2 a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .nav2 a:hover {
+            color: orange;
+        }
+
+        .footer2 {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* ================= Navbar 3 ================= */
+
+        .nav3 {
+            background: #4CAF50;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+        }
+
+        .nav3 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav3 a:hover {
+            text-decoration: underline;
+        }
+
+        .footer3 {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* ================= Navbar 4 ================= */
+
+        .nav4 {
+            background: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav4 a {
+            text-decoration: none;
+            color: #333;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .nav4 a:hover {
+            color: #E91E63;
+        }
+
+        .footer4 {
+            background: #E91E63;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* ================= Navbar 5 ================= */
+
+        .nav5 {
+            background: #673AB7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .links a:hover {
+            color: yellow;
+        }
+
+        .footer5 {
+            background: #673AB7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Design 1 -->
+
+    <div class="box">
+
+        <nav class="nav1">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="content">
+            <h2>Simple Blue Navbar</h2>
+            <p>Easy and attractive design.</p>
+        </div>
+
+        <footer class="footer1">
+            © 2026 My Website
+        </footer>
+
+    </div>
+
+    <!-- Design 2 -->
+
+    <div class="box">
+
+        <nav class="nav2">
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="content">
+            <h2>Dark Navbar</h2>
+            <p>Clean and modern look.</p>
+        </div>
+
+        <footer class="footer2">
+            Made with HTML & CSS
+        </footer>
+
+    </div>
+
+    <!-- Design 3 -->
+
+    <div class="box">
+
+        <nav class="nav3">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="content">
+            <h2>Green Navbar</h2>
+            <p>Simple Flexbox example.</p>
+        </div>
+
+        <footer class="footer3">
+            Thank you for visiting.
+        </footer>
+
+    </div>
+
+    <!-- Design 4 -->
+
+    <div class="box">
+
+        <nav class="nav4">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="content">
+            <h2>Minimal White Navbar</h2>
+            <p>Professional and elegant.</p>
+        </div>
+
+        <footer class="footer4">
+            Follow us on social media.
+        </footer>
+
+    </div>
+
+    <!-- Design 5 -->
+
+    <div class="box">
+
+        <nav class="nav5">
+
+            <div class="logo">
+                MyLogo
+            </div>
+
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </nav>
+
+        <div class="content">
+            <h2>Logo Navbar</h2>
+            <p>Perfect for a portfolio website.</p>
+        </div>
+
+        <footer class="footer5">
+            © 2026 My Website | All Rights Reserved
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
