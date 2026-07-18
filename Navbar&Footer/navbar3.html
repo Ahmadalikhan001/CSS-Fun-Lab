@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Beautiful Headers & Footers</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+        }
+
+        section {
+            margin: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+        }
+
+        .demo {
+            padding: 50px;
+            text-align: center;
+            background: white;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        /* ================= HEADER 1 ================= */
+
+        .header1 {
+            background: #0077ff;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .header1 a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        .header1 a:hover {
+            color: yellow;
+        }
+
+        /* ================= FOOTER 1 ================= */
+
+        .footer1 {
+            background: #0077ff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* ================= HEADER 2 ================= */
+
+        .header2 {
+            background: #222;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 40px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: .3s;
+        }
+
+        .menu a:hover {
+            background: orange;
+        }
+
+        /* ================= FOOTER 2 ================= */
+
+        .footer2 {
+            background: #222;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        .footer2 h3 {
+            margin-bottom: 10px;
+        }
+
+        /* ================= HEADER 3 ================= */
+
+        .header3 {
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            padding: 18px;
+            text-align: center;
+        }
+
+        .header3 a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        .header3 a:hover {
+            text-decoration: underline;
+        }
+
+        /* ================= FOOTER 3 ================= */
+
+        .footer3 {
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* ================= HEADER 4 ================= */
+
+        .header4 {
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .header4 a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: .3s;
+        }
+
+        .header4 a:hover {
+            background: #28a745;
+            color: white;
+        }
+
+        /* ================= FOOTER 4 ================= */
+
+        .footer4 {
+            background: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .footer4 a {
+            text-decoration: none;
+            color: #0077ff;
+            margin: 10px;
+        }
+
+        .footer4 a:hover {
+            color: red;
+        }
+
+        /* ================= HEADER 5 ================= */
+
+        .header5 {
+            background: #6f42c1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 35px;
+        }
+
+        .header5 .logo {
+            color: white;
+        }
+
+        .header5 a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: .3s;
+        }
+
+        .header5 a:hover {
+            color: yellow;
+        }
+
+        /* ================= FOOTER 5 ================= */
+
+        .footer5 {
+            background: #6f42c1;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 35px;
+        }
+
+        .footer5 h3 {
+            margin-bottom: 10px;
+        }
+
+        .footer5 p {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= EXAMPLE 1 ================= -->
+
+    <section>
+
+        <header class="header1">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </header>
+
+        <div class="demo">
+            <h2>Header & Footer Style 1</h2>
+            <p>Simple Blue Navigation Bar</p>
+        </div>
+
+        <footer class="footer1">
+            <p>© 2026 My Website | All Rights Reserved</p>
+        </footer>
+
+    </section>
+
+    <!-- ================= EXAMPLE 2 ================= -->
+
+    <section>
+
+        <header class="header2">
+
+            <div class="logo">MyLogo</div>
+
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </header>
+
+        <div class="demo">
+            <h2>Header & Footer Style 2</h2>
+            <p>Professional Dark Theme</p>
+        </div>
+
+        <footer class="footer2">
+
+            <div>
+                <h3>Company</h3>
+                <p>About Us</p>
+            </div>
+
+            <div>
+                <h3>Services</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>info@email.com</p>
+            </div>
+
+        </footer>
+
+    </section>
+
+    <!-- ================= EXAMPLE 3 ================= -->
+
+    <section>
+
+        <header class="header3">
+
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Offers</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+
+        </header>
+
+        <div class="demo">
+            <h2>Header & Footer Style 3</h2>
+            <p>Beautiful Gradient Design</p>
+        </div>
+
+        <footer class="footer3">
+            <h2>Follow Us</h2>
+            <p>Facebook | Instagram | YouTube</p>
+        </footer>
+
+    </section>
+
+    <!-- ================= EXAMPLE 4 ================= -->
+
+    <section>
+
+        <header class="header4">
+
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Projects</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+
+        </header>
+
+        <div class="demo">
+            <h2>Header & Footer Style 4</h2>
+            <p>Clean White Design</p>
+        </div>
+
+        <footer class="footer4">
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+
+            <p style="margin-top:15px;">© 2026 My Website</p>
+
+        </footer>
+
+    </section>
+
+    <!-- ================= EXAMPLE 5 ================= -->
+
+    <section>
+
+        <header class="header5">
+
+            <div class="logo">CreativeSite</div>
+
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </header>
+
+        <div class="demo">
+            <h2>Header & Footer Style 5</h2>
+            <p>Modern Purple Theme</p>
+        </div>
+
+        <footer class="footer5">
+
+            <div>
+                <h3>Company</h3>
+                <p>About</p>
+                <p>Career</p>
+            </div>
+
+            <div>
+                <h3>Support</h3>
+                <p>Help Center</p>
+                <p>FAQs</p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Email</p>
+                <p>Phone</p>
+            </div>
+
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
