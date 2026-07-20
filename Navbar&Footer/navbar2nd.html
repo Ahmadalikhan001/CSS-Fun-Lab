@@ -18,7 +18,8 @@
             flex-wrap: wrap;
         }
 
-        .Navbar {
+        .Navbar,
+        .footer {
             background-color: bisque;
             padding: 10px;
             flex-wrap: wrap;
@@ -61,21 +62,36 @@
             transition: 3s;
         }
 
+        .footer>a,
         .Navbar>a {
             text-decoration: none;
             color: rgb(11, 43, 1);
             text-shadow: 0 4px 10px rgb(237, 82, 82);
         }
 
+
+        .footer>a:hover,
         .Navbar>a:hover {
             color: crimson;
             text-shadow: 0 4px 10px rgb(35, 168, 35);
+        }
+
+        .hero {
+            font-size: 50px;
+            text-shadow: 0 4px 10px red;
+            background-image: url();
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50%;
+            flex-wrap: wrap;
         }
     </style>
 </head>
 
 <body>
     <div class="main">
+
 
         <nav class="Navbar">
             <h3 class="Logo">MyLogo</h3>
@@ -84,6 +100,13 @@
             <a href="#">Contact</a>
             <button class="btn" type="button">LogIn</button>
         </nav>
+        <div class="hero">Welcom to my Website.</div>
+        <footer class="footer">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <button class="btn">Go Up</button>
+        </footer>
     </div>
 </body>
 
