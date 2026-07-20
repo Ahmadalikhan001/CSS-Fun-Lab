@@ -15,11 +15,13 @@
 
         body {
             background-color: aqua;
+            flex-wrap: wrap;
         }
 
         .Navbar {
             background-color: bisque;
             padding: 10px;
+            flex-wrap: wrap;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -29,6 +31,45 @@
         .Logo {
             font-weight: bold;
             color: rgb(36, 82, 1);
+            text-shadow: 0 4px 10px rgb(231, 58, 58);
+            text-decoration: none;
+        }
+
+        .Logo:hover {
+            color: crimson;
+            text-shadow: 0 4px 10px rgb(35, 168, 35);
+
+        }
+
+        .btn {
+            color: rgb(24, 47, 2);
+            font-weight: bold;
+            height: 26px;
+            width: 70px;
+            padding: 5px;
+            border: none;
+            background-color: rgb(180, 133, 224);
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 2px 4px 10px rgb(244, 68, 68);
+        }
+
+        .btn:hover {
+            background-color: rgb(178, 220, 104);
+            color: brown;
+            box-shadow: 2px 4px 10px rgb(145, 201, 4);
+            transition: 3s;
+        }
+
+        .Navbar>a {
+            text-decoration: none;
+            color: rgb(11, 43, 1);
+            text-shadow: 0 4px 10px rgb(237, 82, 82);
+        }
+
+        .Navbar>a:hover {
+            color: crimson;
+            text-shadow: 0 4px 10px rgb(35, 168, 35);
         }
     </style>
 </head>
@@ -37,11 +78,11 @@
     <div class="main">
 
         <nav class="Navbar">
-            <a class="Logo">MyLogo</a>
+            <h3 class="Logo">MyLogo</h3>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
-            <button type="button">LogIn</button>
+            <button class="btn" type="button">LogIn</button>
         </nav>
     </div>
 </body>
