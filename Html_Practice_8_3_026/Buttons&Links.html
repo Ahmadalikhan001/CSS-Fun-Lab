@@ -6,6 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="3">
     <title>Button & Linkes.</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            border: 1px solid black;
+            width: 100%;
+            height: 100vh;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            border: 1px solid black;
+            background-color: lightgray;
+            border-radius: 15px;
+            width: 300px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn1 {
+            background-color: blue;
+            color: white;
+            padding: 5px 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            right: 30%;
+        }
+
+        .btn2 {
+            background-color: gray;
+            color: white;
+            padding: 5px 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            right: -30%;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,8 +66,10 @@
         <div class="card">
             <h1>Nike Shoes</h1>
             <p>These are great shoes!</p>
-            <button>Buy Now</button>
-            <button>Add to Cart</button>
+            <img src="https://m.media-amazon.com/images/I/71c5Z0g6J-L._AC_UX695_.jpg" alt="Nike Shoes" width="50px"
+                height="50px">
+            <button class="btn1">Buy Now</button>
+            <button class="btn2">Add to Cart</button>
         </div>
     </div>
 </body>
