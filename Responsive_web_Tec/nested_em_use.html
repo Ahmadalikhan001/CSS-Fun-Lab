@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3">
+    <title>Nested em Units</title>
+    <style>
+        .parent_div {
+            font-size: 16px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        .child_div {
+            background-color: lightgreen;
+            padding: 10px;
+            font-size: 2em;
+            /* 2 times the font size of the parent div */
+        }
+
+        span {
+            font-size: 2em;
+            /* 2 times the font size of the child div */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nested em Units</h1>
+    <div class="parent_div">
+        <p>this is my parent Paragraph and the size is 16px.
+        </p>
+        <div class="child_div">
+            <p>this is my child paragraph and the size is 2em. and This is the <span>Span Value.</span></p>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
