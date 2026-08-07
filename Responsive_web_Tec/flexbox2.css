@@ -1,5 +1,7 @@
 * {
     background-color: rgb(177, 239, 177);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 body {
@@ -9,6 +11,9 @@ body {
     height: 400px;
     padding: 10px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -18,10 +23,10 @@ div {
     height: 70px;
     padding: 10px;
     margin: 10px;
-    border: 2px solid rgb(26, 45, 17);
-    display: flex;
+    border: 2px solid rgb(208, 237, 195);
     color: white;
-    justify-content: flex-end;
-    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
