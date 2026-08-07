@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+ul {
+    color: blueviolet;
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+
+}
+
+a {
+    color: rgb(10, 59, 2);
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: auto;
+
+}
