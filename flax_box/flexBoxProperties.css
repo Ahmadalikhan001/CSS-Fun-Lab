@@ -1,8 +1,13 @@
 body {
-    background-color: aquamarine;
+    border: 4px solid wheat;
+    min-width: 400px;
+    height: 400px;
+    background-color: rgb(4, 34, 24);
     display: flex;
-    justify-content: space-around;
-    align-items: space-around;
+    flex-direction: row-reverse;
+    justify-content: flex-center;
+    align-items: flex-end;
+
 
 }
 
