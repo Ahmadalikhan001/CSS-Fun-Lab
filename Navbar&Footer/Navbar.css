@@ -2,32 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-wrap: wrap;
 
 }
 
 nav {
     background-color: aqua;
-    padding: 5px;
-    margin: 5px;
-    min-height: 50px;
+    padding: 16px;
+    margin: 0px;
+    min-height: 70px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
 
-ul {
-    color: blueviolet;
-    display: flex;
-    column-gap: 50px;
-    list-style: none;
-
-}
-
-a {
-    color: rgb(10, 59, 2);
-    text-decoration: none;
-    font-size: 32px;
+.logo {
+    color: rgb(2, 42, 82);
+    font-size: 22px;
+    font-weight: bold;
     margin-right: auto;
+}
 
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(204, 16, 129);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(41, 3, 37);
 }
