@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box {
+    background-color: blanchedalmond;
+    border: 2px solid green;
+    width: 70px;
+    height: 70px;
+
+}
