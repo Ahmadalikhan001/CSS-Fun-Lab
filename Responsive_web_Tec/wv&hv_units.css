@@ -18,9 +18,12 @@
 
 #box {
     background-color: tomato;
-    margin: 2%;
-    padding: 2%;
+    margin: 2px;
+    padding: 2px;
     width: 10vw;
     height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
