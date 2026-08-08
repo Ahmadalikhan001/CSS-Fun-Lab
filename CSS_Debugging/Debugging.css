@@ -1,11 +1,21 @@
-.container {
-    width: 500px;
-    background: lightgray;
+* {
+    outline: 4px solid red;
 }
 
-.card {
+.container {
+    width: 500px;
+    background: rgb(95, 228, 54);
+}
+
+/* .card {
     width: 100%;
     padding: 30px;
     border: 5px solid black;
     background: white;
+} */
+.card {
+    width: 50%;
+    padding: 30px;
+    border: 5px solid rgb(143, 171, 252);
+    box-sizing: border-box;
 }
