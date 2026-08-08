@@ -2,3 +2,23 @@ body {
     background-color: rgb(40, 224, 163);
 
 }
+
+.main {
+    min-height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
+
+.box {
+    background-color: blueviolet;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
