@@ -1,0 +1,27 @@
+.main {
+    flex-shrink: 1;
+    border: 2px solid black;
+    min-height: 800px;
+    background-color: aqua;
+    display: flex;
+}
+
+#box-1 {
+    flex-shrink: 5;
+}
+
+.box {
+    flex-shrink: 1;
+    /* flex-shrink: 0;  */
+    background-color: rgb(88, 5, 88);
+    color: rgb(208, 243, 231);
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    padding: 3px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
