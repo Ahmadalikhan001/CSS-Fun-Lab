@@ -8,6 +8,8 @@ body {
     border: 2px solid black;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+
     /* flex-direction: row; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
