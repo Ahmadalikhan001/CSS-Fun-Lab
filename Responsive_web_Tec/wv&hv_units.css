@@ -30,7 +30,7 @@
 
 }
 
-@media(max-width:500vh) {
+@media(max-width:500px) {
     .continer {
         background-color: rgb(255, 240, 127);
         width: 50wh;
