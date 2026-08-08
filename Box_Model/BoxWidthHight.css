@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    min-height: 100vh;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    background-color: rgb(246, 153, 40);
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
