@@ -1,5 +1,5 @@
 .main {
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     border: 2px solid black;
     min-height: 800px;
     background-color: aqua;
@@ -14,10 +14,10 @@
     /* flex-grow: 1; */
     /* flex-grow: 0; apply see what happen */
     /* flex-grow: 4; */
-    /* flex-grow: 1;
-    max-width: 300px; */
-    flex-shrink: 1;
-    min-width: 100px;
+    flex-grow: 1;
+    max-width: 300px;
+    /* flex-shrink: 1;
+    min-width: 100px; */
 
 }
 
@@ -26,8 +26,8 @@
     /* flex-shrink: 0;  */
     /* flex-grow: 1;
     max-width: 300px; */
-    /* flex-shrink: 1;
-    min-width: 100px; */
+    flex-shrink: 1;
+    min-width: 100px;
     background-color: rgb(88, 5, 88);
     color: rgb(208, 243, 231);
     width: 70px;
@@ -39,4 +39,10 @@
     justify-content: center;
     align-items: center;
 
+}
+
+@media(max-width:575px) {
+    .main {
+        flex-wrap: wrap;
+    }
 }
