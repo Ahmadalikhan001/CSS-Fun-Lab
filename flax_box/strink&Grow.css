@@ -13,7 +13,7 @@
     /* This is already follow so just add for fun  */
     /* flex-grow: 1; */
     /* flex-grow: 0; apply see what happen */
-    flex-grow: 4;
+    /* flex-grow: 4; */
 
 }
 
@@ -21,6 +21,7 @@
     /* flex-shrink: 1; */
     /* flex-shrink: 0;  */
     flex-grow: 1;
+    max-width: 300px;
     background-color: rgb(88, 5, 88);
     color: rgb(208, 243, 231);
     width: 70px;
