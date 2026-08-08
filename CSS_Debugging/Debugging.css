@@ -1,0 +1,11 @@
+.container {
+    width: 500px;
+    background: lightgray;
+}
+
+.card {
+    width: 100%;
+    padding: 30px;
+    border: 5px solid black;
+    background: white;
+}
