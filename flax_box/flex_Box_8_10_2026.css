@@ -46,7 +46,8 @@ body {
 #box-1 {
     margin-right: auto;
     flex-shrink: 1;
+}
 
-
-
+#box-6 {
+    flex-shrink: 10;
 }
