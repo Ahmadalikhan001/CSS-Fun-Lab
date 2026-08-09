@@ -15,12 +15,15 @@ body {
 
 .main {
     background-color: aqua;
-    height: auto;
+    height: 700px;
     width: 70vw;
     padding: 10px;
     margin: 10px;
+    flex-direction: row;
     display: flex;
-    flex-shrink: 5;
+    /* flex-shrink: 5; */
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 @media(max-width:400px) {
@@ -43,10 +46,10 @@ body {
 
 }
 
-#box-1 {
+/* #box-1 {
     margin-right: auto;
     flex-shrink: 1;
-}
+} */
 
 #box-6 {
     flex-shrink: 10;
