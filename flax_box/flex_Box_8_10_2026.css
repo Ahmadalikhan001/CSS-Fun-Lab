@@ -19,19 +19,19 @@ body {
     width: 70vw;
     padding: 10px;
     margin: 10px;
-    flex-shrink: 1;
     display: flex;
     flex-shrink: 5;
     flex-wrap: wrap;
-    min-width: 300px
+
+
+
+
 }
 
 .box {
     background-color: brown;
     border: 2px dashed palevioletred;
-    width: 400px;
     flex-shrink: 1;
-
     margin: 5px;
     padding: 5px;
     width: 50px;
