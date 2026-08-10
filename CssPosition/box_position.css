@@ -10,7 +10,7 @@ body {
 
 .main {
     background-color: blueviolet;
-
+    border: 8px solid rgb(235, 11, 86);
     padding: 20px;
     height: 300px;
     width: 300px;
