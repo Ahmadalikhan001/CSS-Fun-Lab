@@ -35,3 +35,17 @@ body {
     left: 50%;
     translate: -50% -50%;
 }
+
+.search-bar {
+    position: relative;
+    margin: 10px;
+}
+
+input {
+    padding: 7px 20px;
+    font: inherit;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+
+button
