@@ -25,6 +25,9 @@ body {
     align-items: center;
     position: relative;
     overflow: scroll;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: visible; */
 }
 
 .P {
