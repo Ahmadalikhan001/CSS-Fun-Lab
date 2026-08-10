@@ -9,19 +9,19 @@ body {
 
 .main {
     background-color: blueviolet;
+    padding: 20px;
     height: 300px;
     width: 300px;
     border: 2px palevioletred;
-    position: relative;
-    top: 50%;
-    left: 50%;
+
 }
 
 #box {
     background-color: rgb(205, 251, 252);
-    margin: 2px;
-    padding: 2px;
-    height: 50px;
-    width: 50px;
+    border: 2px solid green;
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+
 
 }
