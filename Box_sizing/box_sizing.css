@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
 .Box {
     background-color: yellow;
     height: 70px;
@@ -17,14 +27,18 @@
 }
 
 .box-in {
-    background-color: blueviolet;
+    background-color: inherit;
+    border: 2px solid red;
     padding: 2px;
-    margin: 2px;
+    margin: outo;
     width: 39px;
     height: 39px;
+    border-radius: 50%;
+    fill: none;
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 
 }
