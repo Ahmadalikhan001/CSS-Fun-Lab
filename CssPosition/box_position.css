@@ -5,6 +5,7 @@
 body {
     background-color: rgb(144, 254, 218);
     color: rgb(0, 0, 0);
+
 }
 
 .main {
@@ -14,8 +15,8 @@ body {
     height: 300px;
     width: 300px;
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: 100px;
+    right: 100px;
 
 }
 
