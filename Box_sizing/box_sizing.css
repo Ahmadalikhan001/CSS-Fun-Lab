@@ -16,6 +16,7 @@ body {
 
 .Box {
     background-color: yellow;
+    border: 2px solid red;
     height: 70px;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -38,6 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 
 
