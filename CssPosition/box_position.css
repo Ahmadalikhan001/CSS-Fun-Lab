@@ -14,9 +14,10 @@ body {
     padding: 20px;
     height: 300px;
     width: 300px;
-    position: relative;
-    top: 100px;
-    right: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10px;
 
 }
 
