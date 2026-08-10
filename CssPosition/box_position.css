@@ -9,10 +9,13 @@ body {
 
 .main {
     background-color: blueviolet;
-    border: 8px rgb(235, 11, 86);
+    border: 8px solid rgb(235, 11, 86);
     padding: 20px;
     height: 300px;
     width: 300px;
+    position: relative;
+    top: 30px;
+    left: 30px;
 
 }
 
