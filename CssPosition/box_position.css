@@ -38,14 +38,23 @@ body {
 
 .search-bar {
     position: relative;
-    margin: 10px;
+    margin: 5px;
+
 }
 
 input {
-    padding: 7px 20px;
+    padding: 10px 20px;
     font: inherit;
     border-radius: 100px;
     border: 1px solid gray;
 }
 
-button
+.button {
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    aspect-ratio: 1/ 1;
+    background-color: #0071ff;
+    position: absolute;
+    right: 0;
+}
