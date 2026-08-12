@@ -7,14 +7,15 @@
 .mainBox {
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-columns: 1fr 2fr;
+    /* grid-template-columns: 1fr 2fr; */
+    grid-template-rows: 200px 200px;
 }
 
-/* .Box {
+.Box {
     background-color: rgb(193, 136, 246);
     height: 70px;
     width: 70px;
     padding: 2px;
     margin: 1px;
 
-} */
+}
