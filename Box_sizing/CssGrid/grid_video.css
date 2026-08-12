@@ -14,3 +14,8 @@
     gap: 15px 0px;
 
 }
+
+.box1 {
+    display: grid;
+    grid-template-columns: span0;
+}
