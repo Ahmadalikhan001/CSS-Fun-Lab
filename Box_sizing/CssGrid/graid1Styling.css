@@ -3,6 +3,12 @@
     /* grid-template-columns: 1fr 1fr 1fr;
      */
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 2fr 2fr;
     /* aotu is by defualt value */
+    /* gap: 30px; */
+    /* its for both column and for rows mean same gap creat .*/
+    column-gap: 200px;
+    row-gap: 200px;
+
+
 }
