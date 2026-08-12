@@ -9,4 +9,5 @@
     /* grid-template-rows: 50px 40px; */
     /* grid-template-columns: repeat(3, 200px); */
     grid-template-columns: repeat(4, 100px);
+    gap: 50px;
 }
