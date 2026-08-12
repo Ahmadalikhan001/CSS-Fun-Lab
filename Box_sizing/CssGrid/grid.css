@@ -1,5 +1,19 @@
 * {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+}
+
+.mainBox {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.Box {
+    background-color: rgb(193, 136, 246);
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    margin: 10px;
+
 }
