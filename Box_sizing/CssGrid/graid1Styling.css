@@ -3,6 +3,6 @@
     /* grid-template-columns: 1fr 1fr 1fr;
      */
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: auto;
-
+    grid-template-columns: 1fr 2fr;
+    /* aotu is by defualt value */
 }
