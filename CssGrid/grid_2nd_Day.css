@@ -7,8 +7,11 @@
     /* grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, 200px); */
     /* using fr unit instad of fixed px */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    /* fr without repeat property */
+    grid-template-columns: 3fr 3fr 4fr;
+    grid-template-rows: 1fr 1fr 3fr;
     /* gap: 20px; */
     /* row-gap: 20px;
     column-gap: 20px; */
