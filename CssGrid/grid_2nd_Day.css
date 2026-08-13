@@ -6,7 +6,7 @@
     /* using the repeat property */
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, 200px);
-
+    gap: 20px;
     /* justify-items: center;
     align-items: center; */
     /* justify-items: end;
