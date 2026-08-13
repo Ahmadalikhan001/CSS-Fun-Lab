@@ -1,0 +1,17 @@
+/* body {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+
+} */
+
+.box {
+    background-color: blue;
+}
+
+.grid-container {
+    display: grid;
+
+}
