@@ -4,11 +4,14 @@
     /* grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px; */
     /* using the repeat property */
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 200px);
+    /* grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px); */
+    /* using fr unit instad of fixed px */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     /* gap: 20px; */
-    row-gap: 20px;
-    column-gap: 20px;
+    /* row-gap: 20px;
+    column-gap: 20px; */
     /* justify-items: center;
     align-items: center; */
     /* justify-items: end;
