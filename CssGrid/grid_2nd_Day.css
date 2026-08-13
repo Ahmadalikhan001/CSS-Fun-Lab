@@ -1,6 +1,8 @@
 .grid-contanier {
     background-color: aqua;
     display: grid;
+    /* remember if you put the columns the row will automatically adjust   */
+    /* remember you can not put the columns is less then row for example the below properties */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     /* grid-template-columns: auto; */
