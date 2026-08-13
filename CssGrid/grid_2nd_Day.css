@@ -1,7 +1,10 @@
 .grid-contanier {
     background-color: aqua;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-columns: auto; */
+    /* grid-template-rows: auto; */
     /* grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px; */
     /* using the repeat property */
