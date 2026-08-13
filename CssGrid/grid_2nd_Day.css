@@ -1,16 +1,19 @@
 .grid-contanier {
     background-color: aqua;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    /* grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px; */
+    /* using the repeat property */
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
     /* justify-items: center;
     align-items: center; */
     /* justify-items: end;
     align-items: end; */
     /* justify-items: end;
     align-items: end; */
-    justify-items: end;
-    align-items: center;
+    /* justify-items: end;
+    align-items: center; */
 }
 
 .box {
