@@ -3,8 +3,10 @@
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
-    justify-items: center;
-    align-items: center;
+    /* justify-items: center;
+    align-items: center; */
+    justify-items: end;
+    align-items: end;
 }
 
 .box {
