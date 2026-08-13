@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    /* must be clear what is the parpuss of the below property */
     grid-row: span2;
     /* remember if you put the columns the row will automatically adjust   */
     /* remember you can not put the columns is less then row for example the below properties */
