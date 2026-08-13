@@ -3,14 +3,14 @@
     background-color: lightblue;
     color: white;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 4px;
     font-size: 2rem;
 
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 300px 400px;
+    grid-template-rows: 400px 200px 200px;
     gap: 1em;
 }
