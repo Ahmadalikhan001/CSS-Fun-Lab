@@ -28,6 +28,7 @@
 
     /* grid-auto-rows: 300px; */
     grid-auto-columns: 300px;
+    grid-auto-flow: column;
     gap: 2em;
     justify-items: center;
     align-items: center;
