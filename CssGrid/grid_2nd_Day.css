@@ -4,7 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     /* must be clear what is the parpuss of the below property */
-    grid-row: span2;
+    /* grid-row: span2; */
     /* remember if you put the columns the row will automatically adjust   */
     /* remember you can not put the columns is less then row for example the below properties */
     /* grid-template-columns: repeat(3, 1fr);
@@ -39,10 +39,10 @@
     background-color: blueviolet;
     height: 70px;
     width: 70px;
-    color: yellow;
+    color: rgb(200, 18, 103);
     padding: 10px;
     margin: 10px;
-    border: 2px solid red;
+    border: 2px solid rgb(25, 16, 16);
     display: flex;
     justify-content: center;
     align-items: center;
