@@ -6,6 +6,8 @@ body {
 }
 
 .main-box {
+
+    border: 2px dashed black;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px 200px;
@@ -16,5 +18,11 @@ body {
 }
 
 .box {
+    margin: 10px;
+    border: 2px solid red;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
