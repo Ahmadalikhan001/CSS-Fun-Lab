@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
 
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 100px);
 
     grid-template-areas:
@@ -12,6 +12,9 @@
 }
 
 .box {
-    background: lightblue;
+    background: rgb(2, 184, 245);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
