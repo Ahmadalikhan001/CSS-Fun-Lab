@@ -10,6 +10,12 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(2, 200px);
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, 4, 200px);
+    grid-template-rows: repeat(auto-fit, 2, 200px); */
+    /* grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 200px; */
     gap: 2em;
     grid-template-areas:
         "box1 box2 box3 box3"
@@ -17,6 +23,8 @@ body {
 }
 
 .box {
+    /* height: 100px;
+    width: 100px; */
     background-color: blue;
     font-weight: bold;
     display: flex;
